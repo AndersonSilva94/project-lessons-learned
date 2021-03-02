@@ -1,0 +1,161 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(70, 36, 70);
+  width: 100%;
+}
+
+#cabecalho h1 {
+  color: white;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  margin-top: 90px;
+  padding: 20px 100px;
+  background-color: rgb(119, 63, 119);
+  margin-bottom: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  background-color: white;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+nav ul li:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+nav ul li a {
+  color: rgb(119, 63, 119);
+  font-size: 15px;
+}
+
+#minha_foto {
+  width: 30%;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+#data {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+#data div {
+  background-color: rgb(119, 63, 119);
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  align-self: center;
+}
+
+#data caption {
+  font-size: 25px;
+  font-weight: 650;
+  margin-bottom: 15px;
+}
+
+#data th {
+  font-size: 18px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#data td {
+  font-size: 18px;
+}
+
+.lado-esquerdo {
+  margin-top: 90px;
+  float: left;
+  width: 65%;
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+.lado-direito {
+  float: right;
+  width: 30%;
+  font-size: 20px;
+  margin-top: 140px;
+}
+
+#lessons-learned {
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+#contacts {
+  padding: 20px 30px;
+  margin-top: 90px;
+}
+
+#contacts div {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+#lessons-learned div:nth-of-type( 1 ) , #lessons-learned div:nth-of-type( 2 ) {
+  display: inline-block;
+  width: 500px;
+}
+
+#contacts img {
+  width: 70px;
+}
+
+#rodape p {
+  color: white;
+  text-align: center;
+}
+
+#contacts div:nth-of-type( 2 ) p {
+  display: inline;
+  margin-right: 35px;
+}
+
+#contacts a {
+  filter: invert(29%) sepia(12%) saturate(2544%) hue-rotate(251deg)
+    brightness(94%) contrast(86%);
+}
+
+#rodape {
+  margin-top: 90px;
+  background-color: rgb(70, 36, 70);
+  padding: 20px 30px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: white;
+}
